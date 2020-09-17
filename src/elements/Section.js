@@ -4,7 +4,7 @@ export default function Section(props) {
   const className = ["section"];
   className.push(props.className);
   if (props.isCenteredContent) className.push("center-content");
-  return <Section className={className.join(" ")}> {props.children} </Section>;
+  return <secction className={className.join(" ")}> {props.children} </secction>;
 }
 Section.propTypes = {
   isCenteredContent: propTypes.bool,
